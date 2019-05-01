@@ -40,3 +40,171 @@ notebook/pc:
 */
 
 /* tvoje styly sem */
+
+/*mobilní verze*/
+.hlavni-recept{
+    min-height: 200px;
+    background-image: url( images/burger.jpg );
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding:10px;
+    border-width:0px 0px 1px 0px;
+    border-color:white;
+    border-style:solid;
+}
+
+
+.recept2 {
+    min-height:90px;
+    background-image: url( images/sushi.jpg );
+    background-size: cover;
+    position: relative;
+    padding:10px;
+    flex-grow:1;
+    border-width:0px 0px 1px 0px;
+    border-color:white;
+    border-style:solid;
+}
+.recept3{
+    min-height:90px;
+    background-image: url( images/rajcata.jpg );
+    background-size: cover;
+    position: relative;
+    padding:10px;
+    flex-grow:1;
+    border-width:0px 0px 1px 0px;
+    border-color:white;
+    border-style:solid;
+}
+
+.recept4{
+    min-height:90px;
+    background-image: url( images/kure.jpg );
+    background-size: cover;
+    position: relative;
+    padding:10px;
+    flex-grow:1;
+    border-width:0px 0px 1px 0px;
+    border-color:white;
+    border-style:solid;
+}
+
+.recept5{
+    min-height:90px;
+    background-image: url( images/grilovani.jpg );
+    background-size: color;
+    position: relative;
+    padding:10px;
+    flex-grow:1;
+}
+.recept-meta{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:14px;
+    font-weight: 400;
+    color:white;
+}
+.recept-nazev1 {
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    font-size:28px;
+    font-weight:800;
+    color:white;
+}
+
+.recept-nazev2{
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    font-size:18px;
+    font-weight:800;
+    color:white;
+}
+
+@media (min-width: 480px) {
+.doporucujeme{
+    min-height: 550px;
+}
+
+.hlavni-recept{
+    min-height: 250px;
+    padding:20px;
+}
+.sloupec{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    float:left;
+    width: 50%;       
+}
+
+.recept{
+    min-height: 150px;
+    padding:20px;
+}
+
+.recept-nazev1 {  
+    left:20px;
+    bottom: 20px;
+    font-size:36px;
+}
+
+.recept-nazev2{
+    left:20px;
+    bottom: 20px;
+    font-size:22px;
+}
+
+.recept2{
+    border-width:0px 1px 1px 0px;
+    border-color:white;
+    border-style:solid;
+}
+
+.recept4{
+    border-width:0px 1px 0px 0px;
+    border-color:white;
+    border-style:solid;
+}
+
+@media (min-width: 860px) {
+.doporucujeme{
+    display:flex;
+    flex-direction:row;
+    min-height: 400px;
+}
+
+.hlavni-recept{
+    min-width: calc(100% / 3);
+    border-width:0px 1px 0px 0px;
+    border-color:white;
+    border-style:solid;
+}}
+/*ZÁHADA - když vymažu tu druhou složenou závorku nad poznámkou,
+která tam nemá co dělat, tak mi přestane jít správně 
+rámeček v tabletové verzi. Netuším, proč?! A tak ji tam nechám,
+ať nedělá problémy :D*/
+
+.recept-nazev1{
+    font-size:48px;
+}
+
+.recept-nazev2{
+    font-size:28px;
+}
+
+.recept3{
+    border-width:0px 1px 0px 0px;
+    border-color:white;
+    border-style:solid;
+}
+
+.recept4{
+    border-width:0px 0px 1px 0px;
+    border-color:white;
+    border-style:solid;
+}
+}
